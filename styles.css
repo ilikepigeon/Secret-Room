@@ -78,7 +78,16 @@ button {
   max-height: 70vh;
   overflow-y: auto;
   white-space: pre-wrap;
+
+  /* Scrollbar hidden but still scrollable */
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Internet Explorer 10+ */
 }
+
+.heartfelt::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari and Opera */
+}
+
 
 /* Stars animation */
 #stars {
