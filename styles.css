@@ -75,11 +75,10 @@ button {
   text-align: center;
   font-style: italic;
   line-height: 1.8;
-  white-space: pre-wrap;
   max-height: 70vh;
-  overflow: hidden;   /* hides scroll bar and extra content */
+  overflow-y: auto;
+  white-space: pre-wrap;
 }
-
 
 /* Stars animation */
 #stars {
